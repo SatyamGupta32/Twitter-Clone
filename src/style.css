@@ -1,0 +1,124 @@
+@media screen and (max-width:760px) {
+    .sidebar-2{
+        display: block; 
+     }
+}
+@media screen and (max-width:641px) {
+    .first{
+        position: absolute;
+        /* width: 50%; */
+        height: 100vh;
+        background-color: #000000;
+        z-index: 12;
+    }
+    .listContainer{
+        gap: 1px;
+    }
+    /* .second{
+        padding: 0 10px;
+    } */
+    .AccountPost{
+        margin: auto;
+    }
+    
+    .foryouContainer{
+        border: none;
+    }
+    .followingContainer{
+        border: none;
+    }
+}
+@media screen and (max-width:501px) {
+    .first{
+        /* width: 70%; */
+    }
+}
+
+@media screen and (max-width:350px) {
+    .repostContainer{
+        margin: auto;
+    }
+    .repostContainer img{
+        width: 20px;
+    }
+}
+
+
+/* Hide scrollbar for WebKit browsers */
+.first::-webkit-scrollbar,
+.second::-webkit-scrollbar,
+.third::-webkit-scrollbar {
+    display: none;
+}
+
+.for{
+    border-bottom: 3px solid rgb(52, 150, 230);
+    color: #ffffff;
+    font-weight: 700;
+}
+.follow{
+    border-bottom: 3px solid transparent;
+    color: #71767B;
+    font-weight: 500;
+}
+.ForYouContent{
+    display: block;
+}
+
+.FollowingContent{
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.first,
+.second,
+.third{
+    scrollbar-width: none;
+}
+
+/* Style your controls here */
+.custom-controls button,
+.custom-controls input {
+    appearance: none;
+}
+
+.custom-controls input[type="range"] {
+    -webkit-appearance: none;
+}
+
+.custom-controls input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.custom-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: relative;
+    bottom: 3px;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.love:hover img {
+    filter: invert(29%) sepia(83%) saturate(6657%) hue-rotate(353deg) brightness(103%) contrast(108%);
+    background-color: #ab3c8438;
+}
+
+.poll:hover img,
+.Comment:hover img,
+.bookmarkPost:hover img,
+.sharePost:hover img {
+    filter: invert(27%) sepia(81%) saturate(5026%) hue-rotate(206deg) brightness(96%) contrast(94%);
+    background-color: #3770ec57;
+}
+
+.repost:hover img {
+    filter: invert(39%) sepia(97%) saturate(5043%) hue-rotate(91deg) brightness(100%) contrast(102%);
+    background-color: #0b945477;
+}

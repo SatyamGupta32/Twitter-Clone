@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link href="./src/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="./assets/icon-ios.77d25eba.png"
+      type="image/x-icon"
+    />
+    <title>Home / X</title>
+  </head>
+  <body class="bg-black h-screen w-full text-white relative">
+    <div class="container h-full flex xl:mx-auto lg:m-0 md:mx-auto md:justify-between relative">
+      <div class="first text-[12px] sm:overflow-y-auto flex overflow-hidden xl:w-[50%] lg:w-[25%] md:w-[12%] w-0 flex-col items-center">
+        <div class="sm:hidden flex crossContainer absolute top-2 right-2 border border-white">
+          <img src="./assets/close.svg" alt="">
+        </div>
+        <div class="logoContainer my-3 lg:w-[180px] md:w-[50px]">
+          <div
+            class="borderlogo w-[50px] h-[50px] flex items-center justify-center border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer"
+          >
+            <img class="sm:w-9" src="./assets/logo.svg" alt="logo" class="logo" />
+          </div>
+        </div>
+        <div class="sideBar-1 sm:text-xl font-semibold">
+          <ul class="listContainer flex flex-col gap-2">
+            <li
+              class="home border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/home.svg" alt="home" />
+              <p class="block lg:block md:hidden text-white">Home</p>
+            </li>
+            <li
+              class="explore border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/explore.svg" alt="explore" />
+              <p class="block lg:block md:hidden text-white">Explore</p>
+            </li>
+            <li
+              class="notifications border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img
+                class="w-[25px] sm:w-[34px]"
+                src="assets/notifications.svg"
+                alt="notifications"
+              />
+              <p class="block lg:block md:hidden text-white">Notifications</p>
+            </li>
+            <li
+              class="messages border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/messages.svg" alt="messages" />
+              <p class="block lg:block md:hidden text-white">Messages</p>
+            </li>
+            <li
+              class="grok border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/grok.svg" alt="grok" />
+              <p class="block lg:block md:hidden text-white">Grok</p>
+            </li>
+            <li
+              class="bookmark border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/bookmark.svg" alt="bookmark" />
+              <p class="block lg:block md:hidden text-white">Bookmark</p>
+            </li>
+            <li
+              class="community border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img
+                class="w-[25px] sm:w-[34px]"
+                src="assets/community.svg"
+                alt="community"
+              />
+              <p class="block lg:block md:hidden text-white">Communites</p>
+            </li>
+            <li
+              class="premium border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/logo.svg" alt="premium" />
+              <p class="block lg:block md:hidden text-white">Premium</p>
+            </li>
+            <li
+              class="verified border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/verified.svg" alt="verified" />
+              <p class="block lg:block md:hidden text-white">Verified Orgs</p>
+            </li>
+            <li
+              class="profile border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/profile.svg" alt="profile" />
+              <p class="block lg:block md:hidden text-white">Profile</p>
+            </li>
+            <li
+              class="more border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+            >
+              <img class="w-[25px] sm:w-[34px]" src="assets/more.svg" alt="more" />
+              <p class="block lg:block md:hidden text-white">More</p>
+            </li>
+          </ul>
+        </div>
+        <div class="postbtn-1 text-[12px] sm:text-xl border border-transparent lg:rounded-3xl rounded-full bg-[#1A8CD8] w-[60%] xl:ml-[50px] my-[5px] sm:my-[30px] py-[7px] sm:py-[10px] flex items-center justify-center"
+        >
+          <div class="lg:block md:hidden">Post</div>
+          <div class="lg:hidden md:block"><img class="w-[25px] h-[25px]" src="./assets/feather.svg" alt=""></div>
+        </div>
+        <div class="accountinfo flex w-[70%] justify-center gap-4 border rounded-full border-black hover:bg-[#181818] hover:cursor-pointer p-1 sm:p-2"
+        >
+          <div class="profilePic border border-transparent rounded-[50%] w-[45px]"
+          >
+            <img
+              class="w-[40px] sm:w-full sm:h-full object-cover border rounded-full"
+              src="./assets/profile.jpg"
+              alt=""
+            />
+          </div>
+          <div class="namebox block lg:block md:hidden">
+            <div class="name">Satyam Gupta</div>
+            <div class="profilename text-[#71767B]">@Satyamgupt2204</div>
+          </div>
+          <div class="dots hidden lg:block text-3xl">...</div>
+        </div>
+      </div>
+      <div class="second relative overflow-y-auto border border-x-[0.1px] border-x-[#2F3336] border-y-black xl:w-[80%] lg:w-[440px] w-full"
+      >
+      <div
+      class="foryou-Follow cursor-pointer flex border-b-[0.1px] border-b-[#2F3336] sticky z-10 top-0 left-0 bg-white/0 backdrop-blur-lg h-[100px] sm:h-[60px]"
+      >
+      <div class="hamburger profilePic sm:hidden flex sm:z-0 z-20 border border-transparent rounded-[50%] w-[45px] absolute top-2 left-2 gap-2 items-center "
+      >
+        <img
+          class="w-[40px] sm:w-full sm:h-full object-cover border rounded-full"
+          src="./assets/profile.jpg"
+          alt=""
+        />
+        <div class="font-bold">Home</div>
+      </div>
+          <div
+            class="foryouContainer border-r-[0.1px] flex items-center justify-center border-r-[#2F3336] w-full h-full text-center"
+          >
+            <div
+              class="for h-full flex p-1 sm:p-0 items-end sm:items-center"
+            >
+              For you
+            </div>
+          </div>
+          <div
+            class="followingContainer border-l-[0.1px] flex items-center justify-center border-l-[#2F3336] w-full h-full text-center"
+          >
+            <div class="follow h-full flex p-1 sm:p-0 items-end sm:items-center">Following</div>
+          </div>
+        </div>
+        <div class="ForYouContent my-[20px]">
+          <!-- Content of the second div goes here -->
+          <div class="tweetContainer border-b-[0.1px] border-b-[#2F3336] px-4">
+            <div class="tweettextContainer flex items-center gap-3 m-h-[50px]">
+              <div
+                class="profilePic border border-transparent rounded-[50%] w-[45px] h-full"
+              >
+                <img
+                  class="w-full h-full object-cover border rounded-full"
+                  src="./assets/profile.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tweettext w-full">
+                <textarea
+                  class="tweettext w-full bg-black text-[20px] font-[300] placeholder-gray-500 focus:bg-black focus:outline-none resize-none overflow-hidden"
+                  placeholder="What is happening?!"
+                  name="tweettext"
+                  rows="1"
+                ></textarea>
+              </div>
+            </div>
+            <div class="replyContainer hidden gap-2 items-center ml-10 mr-3 h-[40px] border-b-[0.1px] border-b-[#2F3336]"
+            >
+              <div class="earthImg ml-4 w-[20px]">
+                <img src="./assets/earth.svg" alt="" />
+              </div>
+              <dic class="reply text-[#2B8DCA]"> Everyone can reply </dic>
+            </div>
+            <div class="postTypeContainer flex h-[60px] items-center justify-between ml-[40px]"
+            >
+              <div class="postType">
+                <ul class="flex cursor-pointer">
+                  <li
+                    class="galary flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/gallary.svg" alt="" />
+                  </li>
+                  <li
+                    class="gif border flex justify-center rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/gif.svg" alt="" />
+                  </li>
+                  <li
+                    class="comment cursor-pointer flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img
+                      class="w-[20px]"
+                      src="./assets/comments.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li
+                    class="emoji border flex justify-center rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/emoji.svg" alt="" />
+                  </li>
+                  <li
+                    class="schedule flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/schedule.svg" alt="" />
+                  </li>
+                  <li
+                    class="location flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/location.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="postbtn-2 cursor-default font-bold border border-transparent rounded-3xl bg-[#105b8d] w-[80px] py-[5px] text-center"
+              >
+                post
+              </div>
+            </div>
+          </div>
+          <div
+            class="showMorePostContainer border-b-[0.1px] border-b-[#2F3336] text-center text-[#1A8CD8]"
+          >
+            <div
+              class="show cursor-pointer hover:bg-[#181818] h-[60px] flex items-center justify-center"
+            ></div>
+          </div>
+          <div class="main">
+            <div class="postContainer text-[12px] xl:text-[16px]">
+              <div class="post-1 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[44px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/bhiraji.jpeg"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Bankey Bihari Ji
+                      </div>
+                      <div class="accountuserName text-[#71767B]">@bhiraji</div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        jul 26
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #radheyKrishna
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="videoContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <video
+                        class="customVideo"
+                        src="./assets/radhakrishna.mp4"
+                        loop
+                        class="w-full"
+                      ></video>
+                      <div
+                        class="custom-controls absolute w-full flex justify-between items-end h-[60px] bottom-0 p-2 sm:px-4 sm:py-2 bg-black bg-opacity-50"
+                      >
+                        <button
+                          id=""
+                          class="playPauseBtn absolute top-1 left-1 text-white px-2 py-1"
+                        >
+                          <img src="assets/play.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          class="seekBar m-auto sm:mx-2 absolute w-[90%]"
+                        />
+                        <button
+                          id=""
+                          class="muteBtn absolute top-1 right-36 text-white px-2 py-1"
+                        >
+                          <img src="assets/volume.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          class="volumeBar mx-2 absolute top-4 right-[40px] w-[100px]"
+                        />
+                        <button
+                          id=""
+                          class="fullscreenBtn absolute top-1 right-1 text-white px-2 py-1"
+                        >
+                          <img src="./assets/full.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="breakLine n-full bg-[#2A2E31] h-[1px]"></div>
+              <div class="post-2 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[44px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/ramMandir-logo.heic"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Ram Mandir
+                      </div>
+                      <div class="accountuserName text-[#71767B]">
+                        @ramMandir23
+                      </div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        jan 21
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #जय_श्री_राम #राम #राम
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="imageContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <img src="./assets/ramMandir.heic" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="breakLine n-full bg-[#2A2E31] h-[1px]"></div>
+              <div class="post-3 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[44px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/shivaji-icon.jpg"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Shivaji 🚩🚩
+                      </div>
+                      <div class="accountuserName text-[#71767B]">
+                        @shivaji
+                      </div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        apr 16
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #shivaji #mahadev #akhandbharat
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="videoContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <video
+                        class="customVideo"
+                        src="./assets/shivaji_maharaj.mp4"
+                        loop
+                        class="w-full"
+                      ></video>
+                      <div
+                        class="custom-controls absolute w-full flex justify-between items-end h-[60px] bottom-0 p-2 sm:px-4 sm:py-2 bg-black bg-opacity-50"
+                      >
+                        <button
+                          id=""
+                          class="playPauseBtn absolute top-1 left-1 text-white px-2 py-1"
+                        >
+                          <img src="assets/play.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          class="seekBar m-auto sm:mx-2 absolute w-[90%]"
+                        />
+                        <button
+                          id=""
+                          class="muteBtn absolute top-1 right-36 text-white px-2 py-1"
+                        >
+                          <img src="assets/volume.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          class="volumeBar mx-2 absolute top-4 right-[40px] w-[100px]"
+                        />
+                        <button
+                          id=""
+                          class="fullscreenBtn absolute top-1 right-1 text-white px-2 py-1"
+                        >
+                          <img src="./assets/full.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="breakLine n-full bg-[#2A2E31] h-[1px]"></div>
+              <div class="post-4 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[48px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/hanumanji-icon.jpg"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Ram_bhakt_Hanuman
+                      </div>
+                      <div class="accountuserName text-[#71767B]">
+                        @hanumanji
+                      </div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        Nov 19
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #Hanumanji #ram #ramayan
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="videoContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <video
+                        class="customVideo"
+                        src="./assets/hanuman.mp4"
+                        loop
+                        class="w-full"
+                      ></video>
+                      <div
+                        class="custom-controls absolute w-full flex justify-between items-end h-[60px] bottom-0 p-2 sm:px-4 sm:py-2 bg-black bg-opacity-50"
+                      >
+                        <button
+                          id=""
+                          class="playPauseBtn absolute top-1 left-1 text-white px-2 py-1"
+                        >
+                          <img src="assets/play.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          class="seekBar m-auto sm:mx-2 absolute w-[90%]"
+                        />
+                        <button
+                          id=""
+                          class="muteBtn absolute top-1 right-36 text-white px-2 py-1"
+                        >
+                          <img src="assets/volume.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          class="volumeBar mx-2 absolute top-4 right-[40px] w-[100px]"
+                        />
+                        <button
+                          id=""
+                          class="fullscreenBtn absolute top-1 right-1 text-white px-2 py-1"
+                        >
+                          <img src="./assets/full.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="breakLine n-full bg-[#2A2E31] h-[1px]"></div>
+              <div class="post-5 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[44px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/yukbh-icon.jpg"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Yeh Un Dino Ki Baat Hai
+                      </div>
+                      <div class="accountuserName text-[#71767B]">
+                        @yukbh143
+                      </div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        Oct 10
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #randeeprai #ashisingh #yukbh
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="videoContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <video
+                        class="customVideo"
+                        src="./assets/yeh_unn_dino_ki_baat_hai.mp4"
+                        loop
+                        class="w-full"
+                      ></video>
+                      <div
+                        class="custom-controls absolute w-full flex justify-between items-end h-[60px] bottom-0 p-2 sm:px-4 sm:py-2 bg-black bg-opacity-50"
+                      >
+                        <button
+                          id=""
+                          class="playPauseBtn absolute top-1 left-1 text-white px-2 py-1"
+                        >
+                          <img src="assets/play.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          class="seekBar m-auto sm:mx-2 absolute w-[90%]"
+                        />
+                        <button
+                          id=""
+                          class="muteBtn absolute top-1 right-36 text-white px-2 py-1"
+                        >
+                          <img src="assets/volume.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          class="volumeBar mx-2 absolute top-4 right-[40px] w-[100px]"
+                        />
+                        <button
+                          id=""
+                          class="fullscreenBtn absolute top-1 right-1 text-white px-2 py-1"
+                        >
+                          <img src="./assets/full.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="breakLine n-full bg-[#2A2E31] h-[1px]"></div>
+              <div class="post-6 hover:bg-[#181818] p-4">
+                <div
+                  class="postAccountInfo my-4 flex gap-2 items-start justify-between"
+                >
+                  <div class="postaccountImg cursor-pointer">
+                    <img
+                      class="w-[44px] h-[36px] rounded-full object-cover object-top"
+                      src="./assets/kedarnath-icon.jpg"
+                      alt="bhiraji"
+                    />
+                  </div>
+                  <div class="postAccountName cursor-pointer w-full leading-5">
+                    <div class="top flex gap-2">
+                      <div class="userName hover:underline font-bold">
+                        Mahadev
+                      </div>
+                      <div class="accountuserName text-[#71767B]">
+                        @shivparwati
+                      </div>
+                      <div class="extra text-[#71767B]">·</div>
+                      <div class="postDate hover:underline text-[#71767B]">
+                        Sep 6
+                      </div>
+                    </div>
+                    <div class="bottom text-[#1A8CD8] hover:underline">
+                      #mahadev #parvati #kailash #ganpatibappamorya
+                    </div>
+                  </div>
+                  <div class="postDot cursor-pointer w-[40px] pb-3">. . .</div>
+                </div>
+                <div class="AccountPost w-[80%] lg:ml-[40px] md:ml-[80px] mr-[40px]">
+                  <div
+                    class="videoContainer bg-black border-[0.1px] border-[#2F3336] rounded-2xl px-[12px] sm:px-6"
+                  >
+                    <div class="AccountPostContainer relative">
+                      <video
+                        class="customVideo"
+                        src="./assets/mahadeva_shivji.mp4"
+                        loop
+                        class="w-full"
+                      ></video>
+                      <div
+                        class="custom-controls absolute w-full flex justify-between items-end h-[60px] bottom-0 p-2 sm:px-4 sm:py-2 bg-black bg-opacity-50"
+                      >
+                        <button
+                          id=""
+                          class="playPauseBtn absolute top-1 left-1 text-white px-2 py-1"
+                        >
+                          <img src="assets/play.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          class="seekBar m-auto sm:mx-2 absolute w-[90%]"
+                        />
+                        <button
+                          id=""
+                          class="muteBtn absolute top-1 right-36 text-white px-2 py-1"
+                        >
+                          <img src="assets/volume.svg" alt="" />
+                        </button>
+                        <input
+                          id=""
+                          type="range"
+                          min="0"
+                          max="1"
+                          step="0.1"
+                          class="volumeBar mx-2 absolute top-4 right-[40px] w-[100px]"
+                        />
+                        <button
+                          id=""
+                          class="fullscreenBtn absolute top-1 right-1 text-white px-2 py-1"
+                        >
+                          <img src="./assets/full.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="repostContainer text-[#71767B] w-[90%] ml-[60px] mr-[40px] flex items-center justify-evenly h-[70px]"
+                >
+                  <div
+                    class="Comment cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/circle.svg"
+                      alt=""
+                    />
+                    <span>5.1K</span>
+                  </div>
+                  <div
+                    class="repost cursor-pointer hover:text-green-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/repost.svg"
+                      alt=""
+                    />
+                    <span>2.4k</span>
+                  </div>
+                  <div
+                    class="love flex items-center hover:text-red-500 p-3 hover:cursor-pointer rounded-md"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/love.svg"
+                      alt=""
+                    />
+                    <span>100M</span>
+                  </div>
+                  <div
+                    class="poll cursor-pointer hover:text-blue-500 flex items-center justify-evenly"
+                  >
+                    <img
+                      class="w-[30px] border p-[3px] rounded-full border-transparent"
+                      src="./assets/poll.svg"
+                      alt=""
+                    />
+                    <span>12M</span>
+                  </div>
+                  <div
+                    class="bookmarkShare flex gap-1 items-center justify-evenly"
+                  >
+                    <div class="bookmarkPost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/bookmark-1.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="sharePost cursor-pointer">
+                      <img
+                        class="w-[30px] border p-[3px] rounded-full border-transparent"
+                        src="./assets/share.svg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="FollowingContent my-[20px]">
+          <!-- Content of the second div goes here -->
+          <div class="tweetContainer border-b-[0.1px] border-b-[#2F3336] px-4">
+            <div class="tweettextContainer flex items-center gap-3 m-h-[50px]">
+              <div
+                class="profilePic border border-transparent rounded-[50%] w-[45px]"
+              >
+                <img
+                  class="w-full h-full object-cover border rounded-full"
+                  src="./assets/profile.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="tweettext w-full">
+                <textarea
+                  class="tweettext w-full bg-black text-[20px] font-[300] placeholder-gray-500 focus:bg-black focus:outline-none resize-none overflow-hidden"
+                  placeholder="What is happening?!"
+                  name="tweettext"
+                  rows="1"
+                ></textarea>
+              </div>
+            </div>
+            <div class="replyContainer hidden gap-2 items-center ml-10 mr-3 h-[40px] border-b-[0.1px] border-b-[#2F3336]"
+            >
+              <div class="earthImg ml-4 w-[20px]">
+                <img src="./assets/earth.svg" alt="" />
+              </div>
+              <dic class="reply text-[#2B8DCA]"> Everyone can reply </dic>
+            </div>
+            <div class="postTypeContainer flex h-[60px] items-center justify-between ml-[40px]"
+            >
+              <div class="postType">
+                <ul class="flex cursor-pointer">
+                  <li
+                    class="galary flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/gallary.svg" alt="" />
+                  </li>
+                  <li
+                    class="gif border flex justify-center rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/gif.svg" alt="" />
+                  </li>
+                  <li
+                    class="comment cursor-pointer flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img
+                      class="w-[20px]"
+                      src="./assets/comments.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li
+                    class="emoji border flex justify-center rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/emoji.svg" alt="" />
+                  </li>
+                  <li
+                    class="schedule flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/schedule.svg" alt="" />
+                  </li>
+                  <li
+                    class="location flex justify-center border rounded-full hover:bg-[#051220] border-transparent w-[35px] h-[35px]"
+                  >
+                    <img class="w-[20px]" src="./assets/location.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="postbtn-2 cursor-default font-bold border border-transparent rounded-3xl bg-[#105b8d] w-[80px] py-[5px] text-center"
+              >
+                post
+              </div>
+            </div>
+          </div>
+          <div class="welcomeContainer w-[400px] p-2 mx-auto my-5 flex flex-col gap-4">
+            <h1 class="text-3xl font-extrabold">Welcome to X!</h1>
+          <p>This is the best place to see what’s happening in your world. Find some people and topics to follow now.</p>
+          <div class="letsgo border border-transparent text-center font-bold w-[130px] py-[14px] px-4 rounded-full bg-[#1A8CD8]">
+            Let's go!
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="third overflow-y-auto xl:w-[70%] lg:block lg:w-[40%] hidden lg:overflow-x-hidden">
+        <div class="SearchContainer relative mx-6 my-2">
+          <img
+            id="explore-icon"
+            class="absolute top-3 left-4"
+            style="
+              filter: invert(55%) sepia(0%) saturate(2500%) hue-rotate(172deg)
+                brightness(98%) contrast(101%);
+            "
+            src="assets/explore.svg"
+            alt=""
+          />
+          <input
+            id="search-input"
+            class="w-[350px] h-[45px] border-[0.5px] rounded-full border-transparent bg-[#2F3336] pl-12 placeholder-gray-500 focus:outline-none focus:ring focus:bg-black focus:border-[0.5px] focus:ring-[#1D9BF0]"
+            placeholder="Search"
+            type="text"
+            name=""
+            id=""
+          />
+        </div>
+        <div
+          class="subscribeContainer flex flex-col gap-[10px] w-[350px] mx-6 my-6 px-4 py-2 border border-[#2F3336] rounded-xl"
+        >
+          <h1 class="text-2xl font-bold">Subscribe to Premium</h1>
+          <p class="text-sm">
+            subscribe to unlock new features and if eligible, recieve a share of
+            ads revenue
+          </p>
+          <div
+            class="subscirbe border w-[100px] border-transparent rounded-2xl py-[2px] text-center cursor-pointer font-bold bg-[#1A8CD8]"
+          >
+            Subscribe
+          </div>
+        </div>
+        <div
+          class="happenContainer flex flex-col gap-[10px] w-[350px] mx-6 my-6 border border-[#2F3336] rounded-xl"
+        >
+          <div class="px-4">
+            <h1 class="text-2xl py-2 font-bold">What's Happening</h1>
+          </div>
+          <div class="esport border border-transparent hover:bg-[#181818]">
+            <div class="flex gap-2 px-4 items-center h-[70px] cursor-pointer">
+              <div class="sportimg w-[100px] h-[60px]">
+                <img
+                  class="border border-transparent rounded-xl"
+                  src="assets/cup.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="sporttxt flex flex-col gap-2">
+                <h1 class="text-sm font-bold">Esport World Cup 2024</h1>
+                <p class="text-xs text-[#71767B]">Esport · LIVE</p>
+              </div>
+            </div>
+          </div>
+          <div class="ryaan border border-transparent hover:bg-[#181818]">
+            <div class="flex flex-col px-4 gap-2 cursor-pointer h-[80px]">
+              <div class="toptrend flex justify-between items-center">
+                <p class="text-sm text-[#71767B]">Trending in india</p>
+                <p>. . .</p>
+              </div>
+              <h1 class="text-sm font-bold">#Raayan</h1>
+              <div class="ryaantext flex text-xs gap-2">
+                <p class="mr-1 text-[#71767B]">Trending with</p>
+                <a class="text-[#1A8CD8] hover:underline" href="#">#Raayan</a>,
+                <a class="text-[#1A8CD8] hover:underline m1-2" href="#"
+                  >#Dhanush</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="rashmika border border-transparent hover:bg-[#181818]">
+            <div class="flex flex-col px-4 gap-2 cursor-pointer h-[80px]">
+              <div class="toptrend flex justify-between items-center">
+                <p class="text-sm text-[#71767B]">Entertainment . Trending</p>
+                <p>. . .</p>
+              </div>
+              <h1 class="text-sm font-bold">#RashmikaMandanna</h1>
+              <div class="ryaantext flex text-xs gap-2">
+                <p class="mr-1 text-[#71767B]">Trending with</p>
+                <a class="text-[#1A8CD8] hover:underline" href="#"
+                  >#JhanviKapoor</a
+                >,
+                <a class="text-[#1A8CD8] hover:underline m1-2" href="#"
+                  >#Samantha</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="honey border border-transparent hover:bg-[#181818]">
+            <div class="flex flex-col px-4 gap-2 cursor-pointer h-[80px]">
+              <div class="toptrend flex justify-between items-center">
+                <p class="text-sm text-[#71767B]">Trending in india</p>
+                <p>. . .</p>
+              </div>
+              <h1 class="text-sm font-bold">#YoYoHoneySingh</h1>
+              <div class="ryaantext flex text-xs gap-2">
+                <p class="mr-1 text-[#71767B]">Trending with</p>
+                <a class="text-[#1A8CD8] hover:underline" href="#">#Badshah</a>,
+                <a class="text-[#1A8CD8] hover:underline m1-2" href="#"
+                  >#Raftaar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="deepak border border-transparent hover:bg-[#181818]">
+            <div class="flex flex-col px-4 gap-2 cursor-pointer h-[80px]">
+              <div class="toptrend flex justify-between items-center">
+                <p class="text-sm text-[#71767B]">Trending in india</p>
+                <p>. . .</p>
+              </div>
+              <h1 class="text-sm font-bold">दीपक शर्मा</h1>
+              <div class="ryaantext flex text-xs gap-2">
+                <p class="mr-1 text-[#71767B]">Trending with</p>
+                <a class="text-[#1A8CD8] hover:underline" href="#"
+                  >#ArrestDeepak</a
+                >,
+                <a class="text-[#1A8CD8] hover:underline m1-2" href="#">
+                  आंध्र प्रदेश पुलिस</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="showMore border border-transparent rounded-bl-xl rounded-br-xl hover:bg-[#181818]"
+          >
+            <div
+              class="flex flex-col px-4 gap-2 justify-center cursor-pointer text-[#1A8CD8] h-[40px]"
+            >
+              Show More
+            </div>
+          </div>
+        </div>
+        <div
+          class="follow flex flex-col gap-[10px] w-[350px] mx-6 my-6 border border-[#2F3336] rounded-xl"
+        >
+          <h1 class="text-2xl px-3 py-2 font-bold">Whom to follow</h1>
+          <div class="followAccount px-3 py-2 hover:bg-[#181818]">
+            <div
+              class="followContainer items-center flex gap-[10px] cursor-pointer justify-between"
+            >
+              <div
+                class="profilePic border border-transparent rounded-[50%] w-[100px]"
+              >
+                <img
+                  class="w-full h-full object-cover border rounded-full"
+                  src="./assets/profile.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="followtext leading-5 w-full">
+                <h3 class="font-bold hover:underline">Delhi Traffic Police</h3>
+                <p class="text-[#71767B]">@dtptraffic</p>
+              </div>
+              <div
+                class="followbtn border text-black bg-white px-2 py-1 h-[35px] w-[80px] rounded-2xl text-center font-bold"
+              >
+                follow
+              </div>
+            </div>
+          </div>
+          <div class="followAccount px-3 py-2 hover:bg-[#181818]">
+            <div
+              class="followContainer items-center flex gap-[10px] cursor-pointer justify-between"
+            >
+              <div
+                class="profilePic border border-transparent rounded-[50%] h-[60px] w-[110px]"
+              >
+                <img
+                  class="w-full h-full object-cover border rounded-full"
+                  src="./assets/krishna-radha.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="followtext leading-5 w-full">
+                <h3 class="font-bold hover:underline">Radha Krishna</h3>
+                <p class="text-[#71767B]">@RadhaKrishna❤️</p>
+              </div>
+              <div
+                class="followbtn border text-black bg-white px-2 py-1 h-[35px] w-[80px] rounded-2xl text-center font-bold"
+              >
+                follow
+              </div>
+            </div>
+          </div>
+          <div class="followAccount px-3 py-2 hover:bg-[#181818]">
+            <div
+              class="followContainer items-center flex gap-[10px] cursor-pointer justify-between"
+            >
+              <div
+                class="profilePic border border-transparent rounded-[50%] h-[60px] w-[100px]"
+              >
+                <img
+                  class="w-full h-full object-cover border rounded-full"
+                  src="./assets/kajal-16.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="followtext leading-5 w-full">
+                <h3 class="font-bold hover:underline">Kajal Sapra</h3>
+                <p class="text-[#71767B]">@KajalSapra</p>
+              </div>
+              <div
+                class="followbtn border text-black bg-white px-2 py-1 h-[35px] w-[80px] rounded-2xl text-center font-bold"
+              >
+                follow
+              </div>
+            </div>
+          </div>
+          <div
+            class="showMore border border-transparent rounded-bl-xl rounded-br-xl hover:bg-[#181818]"
+          >
+            <div
+              class="flex flex-col px-4 gap-2 justify-center cursor-pointer text-[#1A8CD8] h-[40px]"
+            >
+              Show More
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-2 hidden fixed bottom-0 w-full bg-black">
+        <ul class="flex justify-around">
+          <li
+            class="home border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img class="w-[30px]" src="assets/home.svg" alt="home" />
+          </li>
+          <li
+            class="explore border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img class="w-[30px]" src="assets/explore.svg" alt="explore" />
+          </li>
+          <li
+            class="notifications border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img
+              class="w-[30px]"
+              src="assets/notifications.svg"
+              alt="notifications"
+            />
+          </li>
+          <li
+            class="messages border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img class="w-[30px]" src="assets/messages.svg" alt="messages" />
+          </li>
+          <li
+            class="grok border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img class="w-[30px]" src="assets/grok.svg" alt="grok" />
+          </li>
+          <li
+            class="community border rounded-3xl border-black hover:bg-[#181818] hover:cursor-pointer p-2 flex items-center gap-5"
+          >
+            <img
+              class="w-[30px]"
+              src="assets/community.svg"
+              alt="community"
+            />
+          </li>
+        </ul>
+    </div>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
