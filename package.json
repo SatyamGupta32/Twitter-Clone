@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build", 
+    "build": "vite build",
     "start": "vite"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "tailwindcss": "^3.4.6"
   },
   "dependencies": {
+    "day-65-tailwind-css": "file:",
     "vite": "^5.3.5"
   }
 }
